@@ -14,8 +14,8 @@ services:
     image: qdrant/qdrant
     container_name: qdrant-agentic-hr
     ports:
-      - "6300:6333"
-      - "6301:6334"
+      - "6333:6333"
+      - "6334:6334"
     volumes:
       - ./qdrant_data:/qdrant/storage
     networks:
