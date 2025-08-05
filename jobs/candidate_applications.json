@@ -1,0 +1,870 @@
+{
+    "applications": [
+        {
+            "application_id": "job_001_cand_01",
+            "job_id": "job_001",
+            "text": "My name is Craig Black. I hold a degree in BSc Computer Science, and currently work as a Theatre manager. Over the past 4 years, I have gained hands-on experience in technologies such as PostgreSQL, Python, FastAPI, CI/CD. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Craig Black",
+            "email": "kristin86@rowe-hoffman.com",
+            "phone": "113-663-3391",
+            "years_experience": 4,
+            "skills": [
+                "PostgreSQL",
+                "Python",
+                "FastAPI",
+                "CI/CD"
+            ],
+            "education": "BSc Computer Science",
+            "current_title": "Theatre manager",
+            "location": "Hybrid"
+        },
+        {
+            "application_id": "job_001_cand_02",
+            "job_id": "job_001",
+            "text": "My name is Daniel Silva. I hold a degree in BSc Computer Science, and currently work as a Public relations account executive. Over the past 4 years, I have gained hands-on experience in technologies such as PostgreSQL, Python, Docker. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Daniel Silva",
+            "email": "whitedana@yahoo.com",
+            "phone": "357-369-9303",
+            "years_experience": 4,
+            "skills": [
+                "PostgreSQL",
+                "Python",
+                "Docker"
+            ],
+            "education": "BSc Computer Science",
+            "current_title": "Public relations account executive",
+            "location": "Remote"
+        },
+        {
+            "application_id": "job_001_cand_03",
+            "job_id": "job_001",
+            "text": "My name is Jason Bell. I hold a degree in BEng Information Technology, and currently work as a Farm manager. Over the past 4 years, I have gained hands-on experience in technologies such as CI/CD, PostgreSQL, FastAPI, Python. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Jason Bell",
+            "email": "fischerashley@yahoo.com",
+            "phone": "663-560-9137x97451",
+            "years_experience": 4,
+            "skills": [
+                "CI/CD",
+                "PostgreSQL",
+                "FastAPI",
+                "Python"
+            ],
+            "education": "BEng Information Technology",
+            "current_title": "Farm manager",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_001_cand_04",
+            "job_id": "job_001",
+            "text": "My name is Lori Bishop. I hold a degree in MSc Software Engineering, and currently work as a Biochemist, clinical. Over the past 4 years, I have gained hands-on experience in technologies such as CI/CD, Python, Docker. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Lori Bishop",
+            "email": "stevensmith@yahoo.com",
+            "phone": "453-642-4226x818",
+            "years_experience": 4,
+            "skills": [
+                "CI/CD",
+                "Python",
+                "Docker"
+            ],
+            "education": "MSc Software Engineering",
+            "current_title": "Biochemist, clinical",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_001_cand_05",
+            "job_id": "job_001",
+            "text": "My name is Jack Smith. I hold a degree in BSc Computer Science, and currently work as a Psychologist, educational. Over the past 6 years, I have gained hands-on experience in technologies such as FastAPI, Docker, PostgreSQL. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Jack Smith",
+            "email": "victorsmith@hughes.com",
+            "phone": "223-344-8696x064",
+            "years_experience": 6,
+            "skills": [
+                "FastAPI",
+                "Docker",
+                "PostgreSQL"
+            ],
+            "education": "BSc Computer Science",
+            "current_title": "Psychologist, educational",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_001_cand_06",
+            "job_id": "job_001",
+            "text": "My name is Gabriel Decker PhD. I hold a degree in BEng Information Technology, and currently work as a Graphic designer. Over the past 6 years, I have gained hands-on experience in technologies such as FastAPI, Docker, Python, PostgreSQL, CI/CD. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Gabriel Decker PhD",
+            "email": "debra75@yahoo.com",
+            "phone": "168.260.3914",
+            "years_experience": 6,
+            "skills": [
+                "FastAPI",
+                "Docker",
+                "Python",
+                "PostgreSQL",
+                "CI/CD"
+            ],
+            "education": "BEng Information Technology",
+            "current_title": "Graphic designer",
+            "location": "Remote"
+        },
+        {
+            "application_id": "job_001_cand_07",
+            "job_id": "job_001",
+            "text": "My name is Joel Lee. I hold a degree in BEng Information Technology, and currently work as a Risk analyst. Over the past 7 years, I have gained hands-on experience in technologies such as Docker, Python, CI/CD. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Joel Lee",
+            "email": "wallacejoseph@brennan.net",
+            "phone": "(216)138-5635x185",
+            "years_experience": 7,
+            "skills": [
+                "Docker",
+                "Python",
+                "CI/CD"
+            ],
+            "education": "BEng Information Technology",
+            "current_title": "Risk analyst",
+            "location": "Remote"
+        },
+        {
+            "application_id": "job_001_cand_08",
+            "job_id": "job_001",
+            "text": "My name is Penny David. I hold a degree in BEng Information Technology, and currently work as a Bookseller. Over the past 3 years, I have gained hands-on experience in technologies such as Python, PostgreSQL, FastAPI, Docker, CI/CD. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Penny David",
+            "email": "melissa06@conrad.net",
+            "phone": "143.932.0196",
+            "years_experience": 3,
+            "skills": [
+                "Python",
+                "PostgreSQL",
+                "FastAPI",
+                "Docker",
+                "CI/CD"
+            ],
+            "education": "BEng Information Technology",
+            "current_title": "Bookseller",
+            "location": "Remote"
+        },
+        {
+            "application_id": "job_001_cand_09",
+            "job_id": "job_001",
+            "text": "My name is Justin Bradley. I hold a degree in BEng Information Technology, and currently work as a Public librarian. Over the past 4 years, I have gained hands-on experience in technologies such as FastAPI, Python. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Justin Bradley",
+            "email": "pvelez@yahoo.com",
+            "phone": "638-382-9283",
+            "years_experience": 4,
+            "skills": [
+                "FastAPI",
+                "Python"
+            ],
+            "education": "BEng Information Technology",
+            "current_title": "Public librarian",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_001_cand_10",
+            "job_id": "job_001",
+            "text": "My name is Meagan Lee. I hold a degree in BEng Information Technology, and currently work as a Theatre director. Over the past 7 years, I have gained hands-on experience in technologies such as CI/CD, FastAPI. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Meagan Lee",
+            "email": "christophernash@hotmail.com",
+            "phone": "+1-202-613-8108x5051",
+            "years_experience": 7,
+            "skills": [
+                "CI/CD",
+                "FastAPI"
+            ],
+            "education": "BEng Information Technology",
+            "current_title": "Theatre director",
+            "location": "Hybrid"
+        },
+        {
+            "application_id": "job_002_cand_01",
+            "job_id": "job_002",
+            "text": "My name is Chad Nunez. I hold a degree in BEng Information Technology, and currently work as a Teacher, adult education. Over the past 3 years, I have gained hands-on experience in technologies such as TypeScript, REST API, UI Design, React. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Chad Nunez",
+            "email": "zwilliams@wells.com",
+            "phone": "(873)648-0401x589",
+            "years_experience": 3,
+            "skills": [
+                "TypeScript",
+                "REST API",
+                "UI Design",
+                "React"
+            ],
+            "education": "BEng Information Technology",
+            "current_title": "Teacher, adult education",
+            "location": "Hybrid"
+        },
+        {
+            "application_id": "job_002_cand_02",
+            "job_id": "job_002",
+            "text": "My name is Jamie Williams. I hold a degree in BEng Information Technology, and currently work as a Photographer. Over the past 5 years, I have gained hands-on experience in technologies such as TypeScript, React. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Jamie Williams",
+            "email": "morenojeffery@gmail.com",
+            "phone": "(902)547-8880x936",
+            "years_experience": 5,
+            "skills": [
+                "TypeScript",
+                "React"
+            ],
+            "education": "BEng Information Technology",
+            "current_title": "Photographer",
+            "location": "Remote"
+        },
+        {
+            "application_id": "job_002_cand_03",
+            "job_id": "job_002",
+            "text": "My name is Trevor Oliver. I hold a degree in MSc Software Engineering, and currently work as a Librarian, public. Over the past 6 years, I have gained hands-on experience in technologies such as REST API, React, UI Design. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Trevor Oliver",
+            "email": "gmichael@hotmail.com",
+            "phone": "4106284033",
+            "years_experience": 6,
+            "skills": [
+                "REST API",
+                "React",
+                "UI Design"
+            ],
+            "education": "MSc Software Engineering",
+            "current_title": "Librarian, public",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_002_cand_04",
+            "job_id": "job_002",
+            "text": "My name is Jennifer Smith. I hold a degree in MSc Software Engineering, and currently work as a Conservation officer, nature. Over the past 6 years, I have gained hands-on experience in technologies such as React, REST API, UI Design. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Jennifer Smith",
+            "email": "trandolph@jackson-cruz.com",
+            "phone": "(651)136-8027",
+            "years_experience": 6,
+            "skills": [
+                "React",
+                "REST API",
+                "UI Design"
+            ],
+            "education": "MSc Software Engineering",
+            "current_title": "Conservation officer, nature",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_002_cand_05",
+            "job_id": "job_002",
+            "text": "My name is James Thomas. I hold a degree in MSc Software Engineering, and currently work as a Surveyor, minerals. Over the past 8 years, I have gained hands-on experience in technologies such as TypeScript, UI Design, REST API. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "James Thomas",
+            "email": "urodriguez@hotmail.com",
+            "phone": "(652)316-6953",
+            "years_experience": 8,
+            "skills": [
+                "TypeScript",
+                "UI Design",
+                "REST API"
+            ],
+            "education": "MSc Software Engineering",
+            "current_title": "Surveyor, minerals",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_002_cand_06",
+            "job_id": "job_002",
+            "text": "My name is Brian Hamilton. I hold a degree in MSc Software Engineering, and currently work as a Building control surveyor. Over the past 2 years, I have gained hands-on experience in technologies such as REST API, React, UI Design, TypeScript. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Brian Hamilton",
+            "email": "dylan00@yahoo.com",
+            "phone": "160.439.4399x149",
+            "years_experience": 2,
+            "skills": [
+                "REST API",
+                "React",
+                "UI Design",
+                "TypeScript"
+            ],
+            "education": "MSc Software Engineering",
+            "current_title": "Building control surveyor",
+            "location": "Hybrid"
+        },
+        {
+            "application_id": "job_002_cand_07",
+            "job_id": "job_002",
+            "text": "My name is Chad Potts. I hold a degree in BSc Computer Science, and currently work as a Engineer, agricultural. Over the past 3 years, I have gained hands-on experience in technologies such as REST API, React, TypeScript, UI Design. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Chad Potts",
+            "email": "pcook@andrade.com",
+            "phone": "983-094-5754",
+            "years_experience": 3,
+            "skills": [
+                "REST API",
+                "React",
+                "TypeScript",
+                "UI Design"
+            ],
+            "education": "BSc Computer Science",
+            "current_title": "Engineer, agricultural",
+            "location": "Hybrid"
+        },
+        {
+            "application_id": "job_002_cand_08",
+            "job_id": "job_002",
+            "text": "My name is Michael Harding. I hold a degree in BEng Information Technology, and currently work as a Writer. Over the past 5 years, I have gained hands-on experience in technologies such as REST API, UI Design. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Michael Harding",
+            "email": "lriddle@benton-sherman.com",
+            "phone": "001-389-198-9240",
+            "years_experience": 5,
+            "skills": [
+                "REST API",
+                "UI Design"
+            ],
+            "education": "BEng Information Technology",
+            "current_title": "Writer",
+            "location": "Remote"
+        },
+        {
+            "application_id": "job_002_cand_09",
+            "job_id": "job_002",
+            "text": "My name is Sydney Green. I hold a degree in MSc Software Engineering, and currently work as a Telecommunications researcher. Over the past 4 years, I have gained hands-on experience in technologies such as TypeScript, REST API, React, UI Design. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Sydney Green",
+            "email": "james63@yahoo.com",
+            "phone": "+1-033-738-8586x33916",
+            "years_experience": 4,
+            "skills": [
+                "TypeScript",
+                "REST API",
+                "React",
+                "UI Design"
+            ],
+            "education": "MSc Software Engineering",
+            "current_title": "Telecommunications researcher",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_002_cand_10",
+            "job_id": "job_002",
+            "text": "My name is Alexis Ortega. I hold a degree in BEng Information Technology, and currently work as a Land. Over the past 2 years, I have gained hands-on experience in technologies such as TypeScript, REST API. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Alexis Ortega",
+            "email": "brendan77@yahoo.com",
+            "phone": "(527)699-1151x2507",
+            "years_experience": 2,
+            "skills": [
+                "TypeScript",
+                "REST API"
+            ],
+            "education": "BEng Information Technology",
+            "current_title": "Land",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_003_cand_01",
+            "job_id": "job_003",
+            "text": "My name is Larry Carlson. I hold a degree in BEng Information Technology, and currently work as a Technical brewer. Over the past 5 years, I have gained hands-on experience in technologies such as Tableau, Marketing Analytics. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Larry Carlson",
+            "email": "janet71@moore.info",
+            "phone": "+1-355-171-9707x466",
+            "years_experience": 5,
+            "skills": [
+                "Tableau",
+                "Marketing Analytics"
+            ],
+            "education": "BEng Information Technology",
+            "current_title": "Technical brewer",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_003_cand_02",
+            "job_id": "job_003",
+            "text": "My name is Timothy Brown. I hold a degree in BSc Computer Science, and currently work as a Police officer. Over the past 4 years, I have gained hands-on experience in technologies such as Tableau, Power BI, SQL. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Timothy Brown",
+            "email": "raymondhaley@hotmail.com",
+            "phone": "001-416-533-4695x2795",
+            "years_experience": 4,
+            "skills": [
+                "Tableau",
+                "Power BI",
+                "SQL"
+            ],
+            "education": "BSc Computer Science",
+            "current_title": "Police officer",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_003_cand_03",
+            "job_id": "job_003",
+            "text": "My name is George Martin. I hold a degree in BSc Computer Science, and currently work as a Operational researcher. Over the past 6 years, I have gained hands-on experience in technologies such as Power BI, SQL, Tableau. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "George Martin",
+            "email": "rfritz@hotmail.com",
+            "phone": "110.365.7661x90479",
+            "years_experience": 6,
+            "skills": [
+                "Power BI",
+                "SQL",
+                "Tableau"
+            ],
+            "education": "BSc Computer Science",
+            "current_title": "Operational researcher",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_003_cand_04",
+            "job_id": "job_003",
+            "text": "My name is Michaela Schmidt. I hold a degree in MSc Software Engineering, and currently work as a Hydrographic surveyor. Over the past 2 years, I have gained hands-on experience in technologies such as Power BI, Marketing Analytics, Tableau, SQL. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Michaela Schmidt",
+            "email": "gcooke@gmail.com",
+            "phone": "785-261-7889x87413",
+            "years_experience": 2,
+            "skills": [
+                "Power BI",
+                "Marketing Analytics",
+                "Tableau",
+                "SQL"
+            ],
+            "education": "MSc Software Engineering",
+            "current_title": "Hydrographic surveyor",
+            "location": "Hybrid"
+        },
+        {
+            "application_id": "job_003_cand_05",
+            "job_id": "job_003",
+            "text": "My name is Douglas Schwartz. I hold a degree in MSc Software Engineering, and currently work as a Exhibition designer. Over the past 8 years, I have gained hands-on experience in technologies such as Power BI, Marketing Analytics. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Douglas Schwartz",
+            "email": "brownjoshua@yahoo.com",
+            "phone": "908-434-0733",
+            "years_experience": 8,
+            "skills": [
+                "Power BI",
+                "Marketing Analytics"
+            ],
+            "education": "MSc Software Engineering",
+            "current_title": "Exhibition designer",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_003_cand_06",
+            "job_id": "job_003",
+            "text": "My name is Hannah Harris. I hold a degree in BSc Computer Science, and currently work as a Investment banker, corporate. Over the past 3 years, I have gained hands-on experience in technologies such as Tableau, Marketing Analytics, SQL, Power BI. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Hannah Harris",
+            "email": "woodsdeanna@yahoo.com",
+            "phone": "106-579-4379x83666",
+            "years_experience": 3,
+            "skills": [
+                "Tableau",
+                "Marketing Analytics",
+                "SQL",
+                "Power BI"
+            ],
+            "education": "BSc Computer Science",
+            "current_title": "Investment banker, corporate",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_003_cand_07",
+            "job_id": "job_003",
+            "text": "My name is Andrew Mcmillan. I hold a degree in BSc Computer Science, and currently work as a Set designer. Over the past 6 years, I have gained hands-on experience in technologies such as SQL, Power BI. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Andrew Mcmillan",
+            "email": "kathleenbarnes@hotmail.com",
+            "phone": "5994600662",
+            "years_experience": 6,
+            "skills": [
+                "SQL",
+                "Power BI"
+            ],
+            "education": "BSc Computer Science",
+            "current_title": "Set designer",
+            "location": "Hybrid"
+        },
+        {
+            "application_id": "job_003_cand_08",
+            "job_id": "job_003",
+            "text": "My name is Jane Beard. I hold a degree in MSc Software Engineering, and currently work as a Garment/textile technologist. Over the past 4 years, I have gained hands-on experience in technologies such as Power BI, Marketing Analytics, SQL, Tableau. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Jane Beard",
+            "email": "mendozavictoria@martin.com",
+            "phone": "001-093-906-2928x3395",
+            "years_experience": 4,
+            "skills": [
+                "Power BI",
+                "Marketing Analytics",
+                "SQL",
+                "Tableau"
+            ],
+            "education": "MSc Software Engineering",
+            "current_title": "Garment/textile technologist",
+            "location": "Remote"
+        },
+        {
+            "application_id": "job_003_cand_09",
+            "job_id": "job_003",
+            "text": "My name is Amanda Hardin. I hold a degree in BSc Computer Science, and currently work as a Special educational needs teacher. Over the past 2 years, I have gained hands-on experience in technologies such as Marketing Analytics, SQL, Tableau, Power BI. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Amanda Hardin",
+            "email": "cfoster@gmail.com",
+            "phone": "308-456-7725x2470",
+            "years_experience": 2,
+            "skills": [
+                "Marketing Analytics",
+                "SQL",
+                "Tableau",
+                "Power BI"
+            ],
+            "education": "BSc Computer Science",
+            "current_title": "Special educational needs teacher",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_003_cand_10",
+            "job_id": "job_003",
+            "text": "My name is Aaron Anderson. I hold a degree in BSc Computer Science, and currently work as a Designer, exhibition/display. Over the past 3 years, I have gained hands-on experience in technologies such as Power BI, SQL, Marketing Analytics, Tableau. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Aaron Anderson",
+            "email": "aramsey@hotmail.com",
+            "phone": "7610464787",
+            "years_experience": 3,
+            "skills": [
+                "Power BI",
+                "SQL",
+                "Marketing Analytics",
+                "Tableau"
+            ],
+            "education": "BSc Computer Science",
+            "current_title": "Designer, exhibition/display",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_004_cand_01",
+            "job_id": "job_004",
+            "text": "My name is Christine Avila. I hold a degree in BEng Information Technology, and currently work as a Pilot, airline. Over the past 2 years, I have gained hands-on experience in technologies such as Grafana, Kubernetes, Terraform, Prometheus, AWS. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Christine Avila",
+            "email": "savannahyoung@anderson.com",
+            "phone": "+1-882-647-4851x6007",
+            "years_experience": 2,
+            "skills": [
+                "Grafana",
+                "Kubernetes",
+                "Terraform",
+                "Prometheus",
+                "AWS"
+            ],
+            "education": "BEng Information Technology",
+            "current_title": "Pilot, airline",
+            "location": "Hybrid"
+        },
+        {
+            "application_id": "job_004_cand_02",
+            "job_id": "job_004",
+            "text": "My name is Sydney Chung. I hold a degree in BEng Information Technology, and currently work as a Patent examiner. Over the past 5 years, I have gained hands-on experience in technologies such as Kubernetes, AWS, Grafana, Terraform, Prometheus. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Sydney Chung",
+            "email": "kpowell@gmail.com",
+            "phone": "+1-248-536-9899x6509",
+            "years_experience": 5,
+            "skills": [
+                "Kubernetes",
+                "AWS",
+                "Grafana",
+                "Terraform",
+                "Prometheus"
+            ],
+            "education": "BEng Information Technology",
+            "current_title": "Patent examiner",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_004_cand_03",
+            "job_id": "job_004",
+            "text": "My name is Nicole Johnson. I hold a degree in BSc Computer Science, and currently work as a Community development worker. Over the past 4 years, I have gained hands-on experience in technologies such as Terraform, Kubernetes, Grafana, Prometheus. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Nicole Johnson",
+            "email": "serranogabriel@moore-mills.info",
+            "phone": "580.278.9995x1183",
+            "years_experience": 4,
+            "skills": [
+                "Terraform",
+                "Kubernetes",
+                "Grafana",
+                "Prometheus"
+            ],
+            "education": "BSc Computer Science",
+            "current_title": "Community development worker",
+            "location": "Hybrid"
+        },
+        {
+            "application_id": "job_004_cand_04",
+            "job_id": "job_004",
+            "text": "My name is Brittany Cook. I hold a degree in MSc Software Engineering, and currently work as a Biomedical scientist. Over the past 3 years, I have gained hands-on experience in technologies such as Grafana, Kubernetes. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Brittany Cook",
+            "email": "james50@gmail.com",
+            "phone": "001-334-771-1002x08916",
+            "years_experience": 3,
+            "skills": [
+                "Grafana",
+                "Kubernetes"
+            ],
+            "education": "MSc Software Engineering",
+            "current_title": "Biomedical scientist",
+            "location": "Remote"
+        },
+        {
+            "application_id": "job_004_cand_05",
+            "job_id": "job_004",
+            "text": "My name is Amber Bell. I hold a degree in MSc Software Engineering, and currently work as a Town planner. Over the past 4 years, I have gained hands-on experience in technologies such as Prometheus, Kubernetes, AWS. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Amber Bell",
+            "email": "dominicbarrera@yahoo.com",
+            "phone": "+1-406-204-8694x543",
+            "years_experience": 4,
+            "skills": [
+                "Prometheus",
+                "Kubernetes",
+                "AWS"
+            ],
+            "education": "MSc Software Engineering",
+            "current_title": "Town planner",
+            "location": "Hybrid"
+        },
+        {
+            "application_id": "job_004_cand_06",
+            "job_id": "job_004",
+            "text": "My name is Laura Smith. I hold a degree in MSc Software Engineering, and currently work as a Brewing technologist. Over the past 8 years, I have gained hands-on experience in technologies such as Prometheus, Kubernetes, Terraform, Grafana, AWS. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Laura Smith",
+            "email": "kari17@hotmail.com",
+            "phone": "199.761.6730x17402",
+            "years_experience": 8,
+            "skills": [
+                "Prometheus",
+                "Kubernetes",
+                "Terraform",
+                "Grafana",
+                "AWS"
+            ],
+            "education": "MSc Software Engineering",
+            "current_title": "Brewing technologist",
+            "location": "Remote"
+        },
+        {
+            "application_id": "job_004_cand_07",
+            "job_id": "job_004",
+            "text": "My name is Maria Livingston. I hold a degree in MSc Software Engineering, and currently work as a Passenger transport manager. Over the past 8 years, I have gained hands-on experience in technologies such as Prometheus, Terraform, AWS, Grafana. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Maria Livingston",
+            "email": "bakerchristina@garcia.info",
+            "phone": "088-914-6399x95719",
+            "years_experience": 8,
+            "skills": [
+                "Prometheus",
+                "Terraform",
+                "AWS",
+                "Grafana"
+            ],
+            "education": "MSc Software Engineering",
+            "current_title": "Passenger transport manager",
+            "location": "Hybrid"
+        },
+        {
+            "application_id": "job_004_cand_08",
+            "job_id": "job_004",
+            "text": "My name is Mrs. Deborah Powers. I hold a degree in BSc Computer Science, and currently work as a Technical sales engineer. Over the past 4 years, I have gained hands-on experience in technologies such as Grafana, Terraform, AWS. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Mrs. Deborah Powers",
+            "email": "pflores@gmail.com",
+            "phone": "+1-353-874-6778",
+            "years_experience": 4,
+            "skills": [
+                "Grafana",
+                "Terraform",
+                "AWS"
+            ],
+            "education": "BSc Computer Science",
+            "current_title": "Technical sales engineer",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_004_cand_09",
+            "job_id": "job_004",
+            "text": "My name is Lee Miller. I hold a degree in BEng Information Technology, and currently work as a Psychotherapist, dance movement. Over the past 3 years, I have gained hands-on experience in technologies such as Grafana, Kubernetes, Prometheus, Terraform, AWS. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Lee Miller",
+            "email": "nathanhensley@hotmail.com",
+            "phone": "570-704-8836x865",
+            "years_experience": 3,
+            "skills": [
+                "Grafana",
+                "Kubernetes",
+                "Prometheus",
+                "Terraform",
+                "AWS"
+            ],
+            "education": "BEng Information Technology",
+            "current_title": "Psychotherapist, dance movement",
+            "location": "Remote"
+        },
+        {
+            "application_id": "job_004_cand_10",
+            "job_id": "job_004",
+            "text": "My name is Gregory Davis. I hold a degree in BSc Computer Science, and currently work as a Ambulance person. Over the past 6 years, I have gained hands-on experience in technologies such as Prometheus, Grafana, AWS, Terraform, Kubernetes. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Gregory Davis",
+            "email": "millerchristine@mahoney-gutierrez.com",
+            "phone": "+1-639-521-0921x789",
+            "years_experience": 6,
+            "skills": [
+                "Prometheus",
+                "Grafana",
+                "AWS",
+                "Terraform",
+                "Kubernetes"
+            ],
+            "education": "BSc Computer Science",
+            "current_title": "Ambulance person",
+            "location": "Hybrid"
+        },
+        {
+            "application_id": "job_005_cand_01",
+            "job_id": "job_005",
+            "text": "My name is Kim Colon. I hold a degree in BEng Information Technology, and currently work as a Engineer, control and instrumentation. Over the past 3 years, I have gained hands-on experience in technologies such as MLOps, TensorFlow. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Kim Colon",
+            "email": "michellebright@gmail.com",
+            "phone": "+1-123-610-7834x6367",
+            "years_experience": 3,
+            "skills": [
+                "MLOps",
+                "TensorFlow"
+            ],
+            "education": "BEng Information Technology",
+            "current_title": "Engineer, control and instrumentation",
+            "location": "Remote"
+        },
+        {
+            "application_id": "job_005_cand_02",
+            "job_id": "job_005",
+            "text": "My name is Daniel Wood. I hold a degree in BSc Computer Science, and currently work as a Occupational hygienist. Over the past 3 years, I have gained hands-on experience in technologies such as MLOps, PyTorch. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Daniel Wood",
+            "email": "kimcrystal@wells.org",
+            "phone": "538-575-3538",
+            "years_experience": 3,
+            "skills": [
+                "MLOps",
+                "PyTorch"
+            ],
+            "education": "BSc Computer Science",
+            "current_title": "Occupational hygienist",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_005_cand_03",
+            "job_id": "job_005",
+            "text": "My name is Mrs. Breanna Allen. I hold a degree in BEng Information Technology, and currently work as a Primary school teacher. Over the past 4 years, I have gained hands-on experience in technologies such as TensorFlow, PyTorch. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Mrs. Breanna Allen",
+            "email": "karenirwin@hotmail.com",
+            "phone": "001-512-180-1100x97830",
+            "years_experience": 4,
+            "skills": [
+                "TensorFlow",
+                "PyTorch"
+            ],
+            "education": "BEng Information Technology",
+            "current_title": "Primary school teacher",
+            "location": "Hybrid"
+        },
+        {
+            "application_id": "job_005_cand_04",
+            "job_id": "job_005",
+            "text": "My name is Daniel Fisher. I hold a degree in MSc Software Engineering, and currently work as a Librarian, public. Over the past 6 years, I have gained hands-on experience in technologies such as MLOps, TensorFlow, PyTorch, Data Engineering. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Daniel Fisher",
+            "email": "frodriguez@ward-arroyo.net",
+            "phone": "+1-258-697-1569",
+            "years_experience": 6,
+            "skills": [
+                "MLOps",
+                "TensorFlow",
+                "PyTorch",
+                "Data Engineering"
+            ],
+            "education": "MSc Software Engineering",
+            "current_title": "Librarian, public",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_005_cand_05",
+            "job_id": "job_005",
+            "text": "My name is Rebecca Larson. I hold a degree in MSc Software Engineering, and currently work as a Proofreader. Over the past 3 years, I have gained hands-on experience in technologies such as MLOps, TensorFlow, PyTorch, Data Engineering. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Rebecca Larson",
+            "email": "david10@smith.org",
+            "phone": "508-856-3639x02854",
+            "years_experience": 3,
+            "skills": [
+                "MLOps",
+                "TensorFlow",
+                "PyTorch",
+                "Data Engineering"
+            ],
+            "education": "MSc Software Engineering",
+            "current_title": "Proofreader",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_005_cand_06",
+            "job_id": "job_005",
+            "text": "My name is Christopher Blanchard. I hold a degree in BSc Computer Science, and currently work as a Designer, interior/spatial. Over the past 8 years, I have gained hands-on experience in technologies such as TensorFlow, PyTorch. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Christopher Blanchard",
+            "email": "erika16@hughes.net",
+            "phone": "052-833-2969x674",
+            "years_experience": 8,
+            "skills": [
+                "TensorFlow",
+                "PyTorch"
+            ],
+            "education": "BSc Computer Science",
+            "current_title": "Designer, interior/spatial",
+            "location": "Remote"
+        },
+        {
+            "application_id": "job_005_cand_07",
+            "job_id": "job_005",
+            "text": "My name is Mrs. Karen Castillo. I hold a degree in MSc Software Engineering, and currently work as a Air broker. Over the past 4 years, I have gained hands-on experience in technologies such as TensorFlow, PyTorch, MLOps, Data Engineering. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Mrs. Karen Castillo",
+            "email": "katiecombs@grant.net",
+            "phone": "(758)847-7988x93503",
+            "years_experience": 4,
+            "skills": [
+                "TensorFlow",
+                "PyTorch",
+                "MLOps",
+                "Data Engineering"
+            ],
+            "education": "MSc Software Engineering",
+            "current_title": "Air broker",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_005_cand_08",
+            "job_id": "job_005",
+            "text": "My name is Jeffrey Fox. I hold a degree in BSc Computer Science, and currently work as a Restaurant manager, fast food. Over the past 4 years, I have gained hands-on experience in technologies such as TensorFlow, MLOps. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Jeffrey Fox",
+            "email": "robert22@johnson-padilla.com",
+            "phone": "(763)372-7465",
+            "years_experience": 4,
+            "skills": [
+                "TensorFlow",
+                "MLOps"
+            ],
+            "education": "BSc Computer Science",
+            "current_title": "Restaurant manager, fast food",
+            "location": "Onsite"
+        },
+        {
+            "application_id": "job_005_cand_09",
+            "job_id": "job_005",
+            "text": "My name is Linda Howard. I hold a degree in BSc Computer Science, and currently work as a Video editor. Over the past 3 years, I have gained hands-on experience in technologies such as MLOps, PyTorch. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Linda Howard",
+            "email": "sean13@hendricks.com",
+            "phone": "+1-809-924-4109x44304",
+            "years_experience": 3,
+            "skills": [
+                "MLOps",
+                "PyTorch"
+            ],
+            "education": "BSc Computer Science",
+            "current_title": "Video editor",
+            "location": "Hybrid"
+        },
+        {
+            "application_id": "job_005_cand_10",
+            "job_id": "job_005",
+            "text": "My name is Laura Hampton. I hold a degree in BEng Information Technology, and currently work as a Animator. Over the past 8 years, I have gained hands-on experience in technologies such as PyTorch, MLOps, TensorFlow, Data Engineering. In my previous role, I contributed to several cross-functional projects, focused on delivering scalable and efficient solutions aligned with business objectives. I thrive in collaborative environments and am passionate about continuous learning and applying best practices in real-world scenarios. I am particularly drawn to this position because it aligns with my expertise and long-term career goals.",
+            "name": "Laura Hampton",
+            "email": "stonevictor@hawkins.com",
+            "phone": "+1-338-775-2523x70331",
+            "years_experience": 8,
+            "skills": [
+                "PyTorch",
+                "MLOps",
+                "TensorFlow",
+                "Data Engineering"
+            ],
+            "education": "BEng Information Technology",
+            "current_title": "Animator",
+            "location": "Hybrid"
+        }
+    ]
+}

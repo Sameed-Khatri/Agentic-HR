@@ -1,0 +1,44 @@
+{
+    "job_descriptions": [
+        {
+            "job_id": "job_001",
+            "text": "We're looking for a Senior Backend Engineer to join our remote team and drive the development of scalable, high-performance backend systems. You will architect and build microservices using Python and FastAPI, work with PostgreSQL databases, and manage Docker-based deployments. Experience in setting up and maintaining CI/CD pipelines is essential. You'll collaborate closely with cross-functional teams to deliver production-grade APIs.",
+            "title": "Senior Backend Engineer",
+            "skills": ["Python", "FastAPI", "PostgreSQL", "Docker", "CI/CD"],
+            "experience_level": "Senior",
+            "location": "Remote"
+        },
+        {
+            "job_id": "job_002",
+            "text": "We are hiring a Mid level Frontend Developer to craft modern, responsive web interfaces using React and TypeScript. You will work on building and enhancing user experiences, integrating RESTful APIs, and collaborating with design and backend teams. Familiarity with UI component libraries and a solid understanding of frontend architecture are key to this role. 3+ years of hands-on experience is required.",
+            "title": "Frontend Developer",
+            "skills": ["React", "TypeScript", "REST API", "UI Design"],
+            "experience_level": "Mid",
+            "location": "Hybrid"
+        },
+        {
+            "job_id": "job_003",
+            "text": "We’re looking for a Mid level Data Analyst to turn business data into insights that drive strategic decisions. You’ll work with SQL and visualization tools like Power BI or Tableau to analyze marketing and sales performance. The ideal candidate is comfortable working with large datasets and presenting findings in clear, actionable dashboards. Minimum 2 years of experience required.",
+            "title": "Data Analyst",
+            "skills": ["SQL", "Power BI", "Tableau", "Marketing Analytics"],
+            "experience_level": "Mid",
+            "location": "Hybrid"
+        },
+        {
+            "job_id": "job_004",
+            "text": "We are seeking a Senior DevOps Engineer to build and maintain cloud-native infrastructure using AWS, Kubernetes, and Terraform. You'll be responsible for managing CI/CD pipelines, ensuring system observability with tools like Prometheus and Grafana, and enabling smooth deployments across environments. 4+ years of relevant experience with cloud-based DevOps practices is essential.",
+            "title": "DevOps Engineer",
+            "skills": ["AWS", "Kubernetes", "Terraform", "Prometheus", "Grafana"],
+            "experience_level": "Senior",
+            "location": "Onsite"
+        },
+        {
+            "job_id": "job_005",
+            "text": "We are looking for a Senior Machine Learning Engineer to build and deploy scalable ML models. You'll work on training pipelines, data preprocessing workflows, and deploy models using frameworks like TensorFlow or PyTorch. Exposure to MLOps practices and cloud deployment will be a strong plus. 3+ years of experience in applied machine learning is required.",
+            "title": "Machine Learning Engineer",
+            "skills": ["TensorFlow", "PyTorch", "MLOps", "Data Engineering"],
+            "experience_level": "Senior",
+            "location": "Remote"
+        }
+    ]
+}
