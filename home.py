@@ -6,8 +6,20 @@ st.set_page_config(page_title="Agentic HR", layout="wide")
 st.title("Agentic HR")
 st.markdown("You AI assistant for hiring problems.")
 
-response = requests.get("http://127.0.0.1:8080/AgenticHR/load-all-jobs")
-jobs = response.json()
+try:
+    response = requests.get("http://127.0.0.1:8080/AgenticHR/load-all-jobs")
+    if response.status_code == 200:
+        jobs = response.json()
+    else:
+        jobs = []
+        st.error(f"Server responded with status code {response.status_code}")
+except requests.exceptions.ConnectionError:
+    jobs = []
+    st.error("Could not connect to the server. Please make sure the API is running at http://127.0.0.1:8080.")
+except Exception as e:
+    jobs = []
+    st.error(f"An unexpected error occurred: {e}")
+
 
 # -------- Sidebar Filters --------
 st.sidebar.header("Filters")

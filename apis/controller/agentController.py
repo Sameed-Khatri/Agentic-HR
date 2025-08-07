@@ -24,5 +24,11 @@ class Controller:
     def invoke_agents(request: GraphRequest) -> JSONResponse:
         state = Controller.build_state_from_request(req=request)
         result = Service.invoke_agents(state=state, thread_id=request.thread_id)
-        return JSONResponse(content={"text": result["messages"][-1].content}, status_code=200)
+        json_result = {"text": result["messages"][-1].content}
+
+        print(f"normal result: {result["messages"][-1].content}")
+        print(f"jsonresult: {json_result}")
+        print(f"json reuslt datatype: {type(json_result)}")
+
+        return JSONResponse(content=json_result, status_code=200)
 

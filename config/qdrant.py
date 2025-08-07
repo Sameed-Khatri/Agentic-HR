@@ -8,7 +8,7 @@ load_dotenv()
 class QdrantConfig:
 
     def __init__(self, collection: str):
-        self.client = QdrantClient(url="http://localhost:6333", api_key=os.getenv("QDRANT_API_KEY"))
+        self.client = QdrantClient(url="http://localhost:6333", api_key=os.getenv("QDRANT_API_KEY"), check_compatibility=False)
         self.collection = collection
         
     def get_vector_store(self) -> QdrantVectorStore:
