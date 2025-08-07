@@ -71,13 +71,13 @@ class Agents:
 
             decision = chain.invoke({'query': state['query'], 'candidates': state['candidates'], 'job_details': state['job_details'], 'conversation_history': state['messages'], 'format_instructions': parser.get_format_instructions()})
             
+            print(f"Supervisor Decision Type: {type(decision)}")
+            print(f"Supervisor Decision Content: {decision}")
+
             if len(decision) > 25:
                 raise ValueError("Response is too long or contains unnecessary information.")
             
             # decision = output.action
-
-            print(f"Supervisor Decision Type: {type(decision)}")
-            print(f"Supervisor Decision Content: {decision}")
             
             mode = 'DONE'
             if 'deepthink' in decision.lower():
@@ -158,7 +158,7 @@ class Agents:
 
         decision = chain.invoke({'query': state['query'], 'candidates': state['candidates'], 'job_details': state['job_details'], 'conversation_history': state['messages']})
 
-        print(f"Comparison Decision Type: {type(decision)}")
-        print(f"Comparison Decision Content: {decision}")
+        print(f"Normal Decision Type: {type(decision)}")
+        print(f"Normal Decision Content: {decision}")
 
         return {'mode': 'DONE', 'messages': [AIMessage(content=decision)]}
