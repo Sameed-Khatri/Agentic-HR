@@ -14,10 +14,6 @@ if "thread_id" not in st.session_state:
 
 st.sidebar.code(st.session_state.thread_id, language="text")
 
-# Button to regenerate thread_id
-if st.sidebar.button("Generate New Thread ID"):
-    st.session_state.thread_id = str(uuid.uuid4())
-
 # ---------- JOB CONTEXT ----------
 if "selected_job_id" not in st.session_state:
     st.error("No job selected. Go back and select a job.")
@@ -38,6 +34,14 @@ def fetch_candidates(job_id, n):
     return []
 
 candidates = fetch_candidates(job_id, top_n)
+
+# Button to regenerate thread_id
+if st.sidebar.button("Generate New Thread ID"):
+    st.session_state.thread_id = str(uuid.uuid4())
+    st.session_state.chat_history = []
+    st.session_state.selected_candidate_ids = set()
+    for cand in candidates:
+        st.session_state[f"cand_checkbox_{cand['application_id']}"] = False
 
 if "candidates_details" not in st.session_state:
     st.session_state.candidates_details = {cand["application_id"]: cand for cand in candidates}

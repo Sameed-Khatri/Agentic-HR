@@ -95,7 +95,7 @@ class Agents:
             # Print the error for debugging purposes
             print(f"Error in supervisor agent: {str(e)}")
             # You can return an error message or a default response
-            return {'mode': 'DONE', 'messages': [AIMessage(content="Error processing supervisor task. Agent couldn't answer the query.")]}
+            return {'mode': 'DONE', 'messages': [AIMessage(content=decision)]}
 
     def deepthink(state: GloablState) -> dict:
         prompt = ChatPromptTemplate.from_messages(
