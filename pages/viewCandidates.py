@@ -145,9 +145,11 @@ if user_input:
         response = requests.post("http://127.0.0.1:8080/AgenticHR/invoke-agents", json=payload)
 
         if response.status_code == 200:
-            ai_response = response.json()
+            ai_response = response.json()["text"]
+        # else:
+        #     ai_response = "Error: Unable to fetch response from the agent."
         else:
-            ai_response = "Error: Unable to fetch response from the agent."
+            ai_response = f"Error {response.status_code}: {response.text}"
 
     except Exception as e:
         ai_response = f"Error: {str(e)}"

@@ -25,8 +25,8 @@ parser = PydanticOutputParser(pydantic_object=SuperviserOutput)
 
 class Models:
     supervisor_model = ChatGroq(model='llama-3.3-70b-versatile', api_key=os.getenv('GROQ_API_KEY'))
-    deepthink_model = ChatGroq(model='qwen/qwen3-32b', api_key=os.getenv('GROQ_API_KEY'))
-    comparison_model = ChatGroq(model='llama3-70b-8192', api_key=os.getenv('GROQ_API_KEY'))
+    deepthink_model = ChatGroq(model='openai/gpt-oss-120b', api_key=os.getenv('GROQ_API_KEY'))
+    comparison_model = ChatGroq(model='openai/gpt-oss-20b', api_key=os.getenv('GROQ_API_KEY'))
     normal_model = ChatGroq(model='gemma2-9b-it', api_key=os.getenv('GROQ_API_KEY'))
 
 
@@ -38,7 +38,7 @@ class Agents:
                 ("system", """You are a supervisor managing a team of agents in the HR department.
                 1. The 'deepthink' agent evaluates candidate applications.
                 2. The 'comparison' agent compares two or more candidates against each other and the job requirements.
-                3. The 'normal' agent answers basic queries related to jobs or candidates.
+                3. The 'normal' agent answers basic queries related to jobs or candidates, or hiring or any random queries. It can also handle queries asking for a final output or any query that can be answered from the conversation history.
 
                 Based on the query, assign the task to one of the agents.
                 - Respond with "DONE" if the task is completed.
@@ -83,6 +83,7 @@ class Agents:
             [
                 ("system", """you are a in depth analysis agent for HR department.
                 Given a query, candidates and job details you will run a detailed analysis on the candidates based on their applications and against the job details.
+                Only user information provided, dont add things from your own.
                 candidates: {candidates}
                 job details: {job_details}"""),
                 MessagesPlaceholder(variable_name="conversation_history"),
@@ -101,6 +102,7 @@ class Agents:
             [
                 ("system", """you are an expert agent in comparing candidate profiles for HR department.
                 Given a query, candidates and job details you will compare the candidates with each other and against the job details.
+                Only user information provided, dont add things from your own.
                 candidates: {candidates}
                 job details: {job_details}"""),
                 MessagesPlaceholder(variable_name="conversation_history"),
@@ -118,7 +120,8 @@ class Agents:
         prompt = ChatPromptTemplate.from_messages(
             [
                 ("system", """you are a helpful assistant for HR department.
-                Given a query, candidates and job details you will answer the basic queries related to the job or candidates.
+                Given a query, candidates and job details you will answer the basic queries related to the job or candidates or hiring of basic decision and random queries with access to the conversation history messages.
+                Only user information provided, dont add things from your own.
                 candidates: {candidates}
                 job details: {job_details}"""),
                 MessagesPlaceholder(variable_name="conversation_history"),
